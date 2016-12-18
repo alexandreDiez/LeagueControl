@@ -4,11 +4,16 @@
   <title>LeagueControl</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
 
-<%= yield %>
+	<%= yield %>
 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

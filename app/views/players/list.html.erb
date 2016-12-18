@@ -1,0 +1,10 @@
+<h1>Liste des joueurs</h1>
+
+
+<table>
+	<% @players.each do |p| %>
+		<tr>
+			<td> <%= p[:name] %></td>
+		</tr>
+	<%end%>
+</table>

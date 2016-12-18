@@ -1,0 +1,3 @@
+# Bowerfile
+asset 'bootstrap-sass'
+asset 'angular'
